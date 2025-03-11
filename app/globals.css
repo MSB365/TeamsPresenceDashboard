@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 238, 95, 191;
+  --primary-foreground: 242, 242, 242;
+
+  --secondary: 128, 145, 242;
+  --secondary-foreground: 242, 242, 242;
+
+  --accent: 88, 100, 166;
+  --accent-foreground: 242, 242, 242;
+
+  --background: 242, 242, 242;
+  --foreground: 13, 13, 13;
+
+  --muted: 220, 220, 220;
+  --muted-foreground: 115, 115, 115;
+
+  --border: 214, 214, 214;
+  --input: 214, 214, 214;
+
+  --card: 255, 255, 255;
+  --card-foreground: 13, 13, 13;
+}
+
+body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+}
+
